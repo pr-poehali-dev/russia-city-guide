@@ -80,6 +80,32 @@ const cities: City[] = [
       { id: 8, name: 'Мечеть Кул-Шариф', description: 'Главная мечеть Татарстана', rating: 4.8 },
       { id: 9, name: 'Храм всех религий', description: 'Уникальный архитектурный комплекс', rating: 4.6 }
     ]
+  },
+  {
+    id: 4,
+    name: 'Сочи',
+    description: 'Курортная столица России на берегу Чёрного моря',
+    image: 'https://cdn.poehali.dev/projects/b5d62a1e-3ad4-4d64-aa6e-780b63479560/files/b99ff616-de0a-4f13-8d9d-eca169448780.jpg',
+    rating: 4.6,
+    reviewsCount: 820,
+    attractions: [
+      { id: 10, name: 'Олимпийский парк', description: 'Наследие зимней Олимпиады 2014 года', rating: 4.7 },
+      { id: 11, name: 'Роза Хутор', description: 'Горнолыжный курорт мирового класса', rating: 4.8 },
+      { id: 12, name: 'Дендрарий', description: 'Уникальный ботанический парк', rating: 4.5 }
+    ]
+  },
+  {
+    id: 5,
+    name: 'Владивосток',
+    description: 'Ворота на Дальний Восток с живописными видами на бухту',
+    image: 'https://cdn.poehali.dev/projects/b5d62a1e-3ad4-4d64-aa6e-780b63479560/files/30c9a15e-55a9-4f7c-81a1-d816e321e146.jpg',
+    rating: 4.5,
+    reviewsCount: 380,
+    attractions: [
+      { id: 13, name: 'Золотой мост', description: 'Символ города и инженерное чудо', rating: 4.8 },
+      { id: 14, name: 'Русский мост', description: 'Один из крупнейших вантовых мостов', rating: 4.7 },
+      { id: 15, name: 'Набережная Цесаревича', description: 'Прогулочная зона с видом на бухту', rating: 4.6 }
+    ]
   }
 ];
 
